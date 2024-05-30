@@ -34,7 +34,7 @@ function App() {
   }
   return (
     <>
-    <Navbar title="My App" aboutText="My About" mode={mode} toggle={handleMode} btnText={btnText}/>
+    <Navbar title="My React App" aboutText="My About" mode={mode} toggle={handleMode} btnText={btnText}/>
     <TextForm heading="Enter Text Here" mode={mode}/>
     <About mode={mode} myStyle={myStyle}/>
     </>
